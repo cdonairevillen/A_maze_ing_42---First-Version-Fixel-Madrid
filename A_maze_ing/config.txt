@@ -1,0 +1,25 @@
+# A-Maze-ing Generator Configuration File
+# ==========================================
+
+# Maze dimensions (in cells)
+WIDTH=70
+HEIGHT=50
+
+# Entry point (coordinates)(x,y)
+ENTRY=1,0
+
+# Exit point (coordinates)(x,y)
+EXIT=3,3
+
+# Output filename
+OUTPUT_FILE=maze.txt
+
+# Random seed for reproducibility
+# Leave empty or set to None for random mazes each time
+# Set to any integer (e.g., SEED=42) for reproducible mazes
+SEED=
+
+# Perfect maze flag
+# Set to true for perfect maze (uses Prim's algorithm - no cycles)
+# Set to false for non-perfect maze (uses Prim algorithm - with cycles)
+PERFECT=True
